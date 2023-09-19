@@ -6,7 +6,6 @@
 #include <algorithm>
 #include <string>
 #include <regex>
-#include <numeric>
 
 struct IntelHex
 {
