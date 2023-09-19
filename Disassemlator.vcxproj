@@ -132,9 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Disassemlator.cpp" />
+    <ClCompile Include="HexToASM.cpp" />
     <ClCompile Include="IntelHexParser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HexToASM.h" />
     <ClInclude Include="IntelHexParser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

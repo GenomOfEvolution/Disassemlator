@@ -16,6 +16,9 @@
     <Filter Include="Исходные файлы\Parser">
       <UniqueIdentifier>{e0e48e19-61a5-4e07-91ef-16cd9950a1f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Converter">
+      <UniqueIdentifier>{79fff7db-a74e-40d9-84fc-c84776980150}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Disassemlator.cpp">
@@ -24,10 +27,16 @@
     <ClCompile Include="IntelHexParser.cpp">
       <Filter>Исходные файлы\Parser</Filter>
     </ClCompile>
+    <ClCompile Include="HexToASM.cpp">
+      <Filter>Исходные файлы\Converter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelHexParser.h">
       <Filter>Исходные файлы\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="HexToASM.h">
+      <Filter>Исходные файлы\Converter</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
