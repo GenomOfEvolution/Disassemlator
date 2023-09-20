@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
-#include "IntelHexParser.h"
-#include "HexToASM.h"
+#include "IntelHexParser/IntelHexParser.h"
+#include "HexToASM/HexToASM.h"
 
 struct Args
 {

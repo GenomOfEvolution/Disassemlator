@@ -132,12 +132,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Disassemlator.cpp" />
-    <ClCompile Include="HexToASM.cpp" />
-    <ClCompile Include="IntelHexParser.cpp" />
+    <ClCompile Include="HexToASM\HexToASM.cpp" />
+    <ClCompile Include="IntelHexParser\IntelHexParser.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HexToASM.h" />
-    <ClInclude Include="IntelHexParser.h" />
+    <ClInclude Include="HexToASM\HexToASM.h" />
+    <ClInclude Include="IntelHexParser\IntelHexParser.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,18 +24,18 @@
     <ClCompile Include="Disassemlator.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="IntelHexParser.cpp">
+    <ClCompile Include="IntelHexParser\IntelHexParser.cpp">
       <Filter>Исходные файлы\Parser</Filter>
     </ClCompile>
-    <ClCompile Include="HexToASM.cpp">
+    <ClCompile Include="HexToASM\HexToASM.cpp">
       <Filter>Исходные файлы\Converter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IntelHexParser.h">
+    <ClInclude Include="IntelHexParser\IntelHexParser.h">
       <Filter>Исходные файлы\Parser</Filter>
     </ClInclude>
-    <ClInclude Include="HexToASM.h">
+    <ClInclude Include="HexToASM\HexToASM.h">
       <Filter>Исходные файлы\Converter</Filter>
     </ClInclude>
   </ItemGroup>
