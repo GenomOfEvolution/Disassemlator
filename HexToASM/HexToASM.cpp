@@ -211,7 +211,15 @@ std::string WriteCommand(const AVMParametr& avmCommand, const IntelHex& i, size_
 		fullAddress += PrintFormatedHex(i.dataField[pos]) + PrintFormatedHex(i.dataField[pos + 1]) + PrintFormatedHex(i.dataField[pos + 2]) + PrintFormatedHex(i.dataField[pos + 3]);;
 	}
 
-	fullAddress += avmCommand.command + " ";
+	if (avmCommand.mask.length() == 16)
+	{
+		fullAddress += "\t" + avmCommand.command + "\t";
+	}
+	else
+	{
+		fullAddress += avmCommand.command + "\t";
+	}
+	
 
 	std::string paramA;
 	std::string paramB;
